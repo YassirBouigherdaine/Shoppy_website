@@ -19,27 +19,20 @@ const ShoppingCart = () => {
 
                 <div className="row shadow-lg p-3 mb-5 bg-body rounded ms-3 me-3">
 
-                    <h1 className="display-6 myTitle ms-5 mt-5 mb-5">SHOPPING CART</h1>
+                    <h1 className="display-6 myTitle ms-3 mt-5 mb-5">SHOPPING CART</h1>
 
                     <div className="underline d-inline d-none d-lg-block"></div>
 
-                    <nav className=" mb-3 ms-5">
-                        <ul className="nav justify-content-center">
-                            <li>
-                                <button className="px-4 m-3 btn btn-outline-warning" onClick={() => { setFilter("all") }}>All</button>
-                            </li>
-                            <li>
-                                <button className="px-4 m-3 btn btn-outline-warning" onClick={() => { setFilter("Shirt") }}>Shirt</button>
-                            </li>
-                            <li>
-                                <button className="px-4 m-3 btn btn-outline-warning" onClick={() => { setFilter("Jacket") }}>Jacket</button>
-                            </li>
-                            <li>
-                                <button className="px-4 m-3 btn btn-outline-warning" onClick={() => { setFilter("Jean") }}>Jean</button>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="grid d-flex justify-content-center ms-2 mb-5">
+                        <div class="g-col-6 p-2 m-2"><button className="btn btn-outline-warning" onClick={() => { setFilter("all") }}>All</button></div>
+                        <div class="g-col-6 p-2 m-2"><button className="btn btn-outline-warning" onClick={() => { setFilter("Shirt") }}>Shirt</button></div>
+
+                        <div class="g-col-6 p-2 m-2"><button className="btn btn-outline-warning" onClick={() => { setFilter("Jacket") }}>Jacket</button></div>
+                        <div class="g-col-6 p-2 m-2"><button className="btn btn-outline-warning" onClick={() => { setFilter("Jean") }}>Jean</button></div>
+                    </div>
+
                     
+                   
                     {products.map((prod) => {
 
                         if (prod.category === filter) return < Item

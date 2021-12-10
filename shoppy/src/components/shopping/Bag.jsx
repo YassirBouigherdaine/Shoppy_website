@@ -21,7 +21,7 @@ const Bag = () => {
 
 				<div className="row shadow-lg p-3 mb-5 bg-body rounded ms-3 me-3 mt-5">
 
-					<h1 className="display-6 text-center ms-5 mt-3 mb-5">MY BAG</h1>
+					<h1 className="display-6 myTitle ms-2 mt-5 mb-5">MY BAG</h1>
 					<div className="d-inline" />
 
 						{cart.length > 0 ? (<>

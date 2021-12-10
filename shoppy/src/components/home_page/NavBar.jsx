@@ -14,7 +14,7 @@ const NavBar = ()=> {
 
 	return (
 
-		<nav className="navbar navbar-expand-lg text-dark shadow-lg myText rounded bg-info">
+		<nav className="navbar navbar-expand-lg text-dark shadow-lg myText rounded bg-info min-vw-100">
 			
 			<div className="container-fluid">
 
@@ -39,9 +39,8 @@ const NavBar = ()=> {
 						<li className="nav-item ms-5">
 							<Link className="nav-link text-white " to="/Bag">My Bag</Link>
 						</li>
-						
 						<li className="nav-item ms-5">
-							<Link className="nav-link text-white " to="/Contact">About us</Link>
+							<Link className="nav-link text-white " to="/About">About us</Link>
 						</li>
 						<li className="nav-item ms-5">
 							<Link className="nav-link text-white " to="/Login"><FaUser /></Link>

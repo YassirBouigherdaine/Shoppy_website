@@ -7,9 +7,9 @@ const Review = (props) => {
 
     return (
 
-        <article className="col-lg-4 container-fluid mt-2">
+        <article className="col-lg-6 container-fluid mt-2">
 
-            <div className="myReviewCard shadow-lg mb-5 bg-body rounded">
+            <div className="mx-auto text-center shadow-lg mb-5 bg-body rounded">
 
                 <img src={props.image} className=" myReviewImg me-5 shadow p-3 mt-5 mb-3 bg-body " alt={props.name} />
                 <div className="card-body ms-4">

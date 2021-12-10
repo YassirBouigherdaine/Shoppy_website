@@ -56,13 +56,9 @@ img {
     border-radius: 60%;
     height: 300px;
     width: 300px;
-    margin-left: 60px;
+    margin-left: 45px;
 }
-.myReviewCard {
-    width: 30rem;
-    text-align: center;
-    margin-left:-60px;
-}
+
 
 .myTitle {
     margin-left: auto;
@@ -74,7 +70,7 @@ img {
     width: 7rem;
     height: 0.25rem;
     background-color:gold;
-    margin-left: 620px;
+    margin-left: 595px;
    margin-bottom:50px;
    margin-top:-10px;
 }

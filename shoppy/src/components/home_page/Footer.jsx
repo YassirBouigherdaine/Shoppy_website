@@ -8,13 +8,16 @@ const Footer =()=> {
 
     return (
         <div>
-            <div className="container-fluid ps-5 py-5 w-100 navColor text-white ">
-                <div className="row  py-2">
-                    <div className="col-3 ">
+            <div className="container-fluid px-5 py-5  min-vw-100 navColor text-white ">
+                <div className="row ps-2  py-3">
+
+                    <div className="col-lg-3 mb-5  ms-5">
                         <h5 className="fs-5">SHOPPY</h5>
                         <br />
-                        <p className="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit iure consectetur adipisicing</p>
-                        <p className="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit iure</p>
+                        <p className="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing</p>
+                        <p className="fw-light">Lorem ipsum dolor sit amet adipisicing elit</p>
+                        <p className="fw-light">Lorem ipsum dolor sit amet adipisicing elit</p>
+                        <p className="fw-light">Lorem ipsum dolor sit</p>
                        
 
                         <div className="justify-content-center d-lg-flex me-5">
@@ -23,7 +26,7 @@ const Footer =()=> {
                             <a className=" text-white px-2" href="https://www.instagram.com/"><FaInstagram /></a>
                         </div>
                     </div>
-                    <div className="col-3 ps-5">
+                    <div className="col-lg-2 mb-5 ps-4  mx-5">
                         <h5 className="fs-5">Useful Links</h5>
                         <br />
                         <ul className="myList">
@@ -38,7 +41,7 @@ const Footer =()=> {
                         </ul>
                     </div>
 
-                    <div className="col-3 ">
+                    <div className="col-lg-2 mb-5  mx-5">
                         <h5 className="fs-5">Opening Hours</h5>
                         <br />
                         <ul className="myList">
@@ -47,7 +50,8 @@ const Footer =()=> {
                             <li>8:00 AM - 6:00 PM</li>
                         </ul>
                     </div>
-                    <div className="col-3 ">
+
+                    <div className="col-lg-2 mb-5 ms-5">
                         <h5 className="fs-5">Contact us</h5>
 
                         <br />
@@ -69,7 +73,7 @@ const Footer =()=> {
                 </div>
             </div>
 
-            <footer className="navColor text-white text-center position-relative border-top py-3">
+            <footer className="navColor text-white text-center position-relative border-top py-3 min-vw-100">
 
                 <div className="container-fluid">
                     <p>Copyrigth &copy; 2021 Yassir Boui</p>

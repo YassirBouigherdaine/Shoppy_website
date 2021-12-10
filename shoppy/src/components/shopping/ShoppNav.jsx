@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CartState } from '../context/Context';
-import { FaBriefcase, FaSearch } from 'react-icons/fa';
+import { FaBriefcase, FaSearch, FaHome } from 'react-icons/fa';
 
 const ShoppNav = () => {
 
@@ -13,8 +13,8 @@ const ShoppNav = () => {
 
 			<div className="container-fluid">
 
-				<Link className="navbar-brand  me-5 hand-icon " to="/" >
-					<span className="text-white fs-4 ">Home</span>
+				<Link className="btn navColor shadow-lg text-white mt-1 ms-2 d-inline d-lg-block" to="/" >
+					<FaHome className=" fs-4" />
 				</Link>
 
 				<form className="d-flex position-absolute top-50 start-50 translate-middle w-50">

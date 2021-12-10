@@ -3,8 +3,9 @@
     "",
     "\\shoppy",
     "\\shoppy\\src",
-    "\\shoppy\\src\\components"
+    "\\shoppy\\src\\components",
+    "\\shoppy\\src\\components\\shopping"
   ],
-  "SelectedNode": "\\shoppy\\src\\components\\categories",
+  "SelectedNode": "\\shoppy\\src\\index.css",
   "PreviewInSolutionExplorer": false
 }

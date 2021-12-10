@@ -6,7 +6,7 @@ const Carousel = () => {
 
 	return (
 
-        <div id="myCarousel" className=" px-5 py-4 w-100 h-100 figure" style={{
+        <div id="myCarousel" className=" px-5 py-4 min-vw-100 min-vh-100 figure" style={{
             backgroundImage: `url("pics/pic9.jpg")`, backgroundPosition: '0px -450px',
             backgroundSize: 'cover', opacity:'0.7',
         }}>

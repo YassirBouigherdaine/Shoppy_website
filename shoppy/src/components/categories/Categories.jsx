@@ -21,7 +21,7 @@ const Categories = () => {
 
         <div className="container-fluid  ">
 
-            <h1 className="display-6 myTitle ms-5 mt-5 mb-5">CATEGORIES</h1>
+            <h1 className="display-6 myTitle mt-5 mb-5">CATEGORIES</h1>
             <div className="underline d-inline d-none d-lg-block"></div>
 
             <div className="d-lg-flex justify-content-center mt-2 m-5 p-3 ">

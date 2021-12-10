@@ -33,7 +33,7 @@ const Reviews = () => {
         <>
 
             <div className="container-fluid mb-5">
-                <h1 className="display-6  ms-5 mt-5 mb-5 text-center">OUR REVIEWS</h1>
+                <h1 className="display-6 myTitle mt-5 mb-5">OUR REVIEWS</h1>
                 <div className="underline d-inline d-none d-lg-block"></div>
                 
                 <div className="row  ms-1 me-1 ">

@@ -5,15 +5,15 @@ import { FaTimesCircle} from 'react-icons/fa';
 
 const BagItem = ({ prod }) => {
 
-	const { state: { cart }, dispatch, } = CartState();
+	const { dispatch, } = CartState();
 
 	return (
 
 		<div className="col-lg-4 ">
-			<div className="ms-2 card mb-3 shadow-lg p-2 d-flex" key={prod.id} style={{ maxWidth: `340px` }}>
+			<div className="m-4 card mb-3 shadow-lg p-2 d-flex" key={prod.id} style={{ maxWidth: `440px` }}>
 
 				<div className="row g-0 ">
-					<span className="hand-icon mt-1" onClick={() => dispatch({
+					<span className="hand-icon mt-1 mb-1" onClick={() => dispatch({
 						type: "REMOVE_FROM_CART",
 						payload: prod,
 					})} >
